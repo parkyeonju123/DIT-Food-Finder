@@ -13,6 +13,7 @@ class FoodFinderTableViewController: UITableViewController {
     var foodStoreNames = ["늘해랑","아딸","번개반점","왕짜장","토마토도시락","홍콩반점"]
     var foodStoreImages = ["01","02","03","04","05","06"]
     var foodStoreAddress = ["부산시 진구 양정동","부산시 진구 양정동","부산시 진구 양정동","부산시 진구 양정동","부산시 진구 양정동","부산시 진구 양정동"]
+    //var foodStoreTel = ["돼지국밥", "분식", "중화요리", "중화요리", "도시락", "중화요리"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,6 +23,7 @@ class FoodFinderTableViewController: UITableViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
+        self.title = "DIT 배달통"
     }
 
     override func didReceiveMemoryWarning() {
@@ -32,7 +34,7 @@ class FoodFinderTableViewController: UITableViewController {
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
+         //#warning Incomplete implementation, return the number of sections
         return 1
     }
 
